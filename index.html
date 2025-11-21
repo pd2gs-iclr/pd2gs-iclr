@@ -53,7 +53,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">PD\(^{2}\)GS: Part-Level Decoupling and Continuous Deformation of Articulated Objects via Gaussian Splatting</h1>
+          <h1 class="title is-1 publication-title">PD\(^{2}\)GS: Part-Level Decoupling and <br> Continuous Deformation of Articulated Objects <br> via Gaussian Splatting</h1>
         </div>
       </div>
       <div class="column has-text-centered">
@@ -102,50 +102,68 @@
         <!-- Right Side: Processing and Simulation (within dashed box) -->
         <div class="column is-9">
           <div class="workflow-dashed-box workflow-right-container">
-            <div class="columns">
+            <div class="columns" style="margin-bottom: 0;">
               <!-- Left Panel: Unified Part-aware Gaussian Field -->
               <div class="column is-6">
-                <div class="workflow-panel">
+                <div class="workflow-panel" style="padding-bottom: 5px;">
                   <img src="./gif/0.gif" alt="Unified Part-aware Gaussian Field" class="workflow-large-image">
-                  <p class="workflow-label has-text-centered" style="margin-top: 10px;">Unified Part-aware Gaussian Field</p>
                 </div>
               </div>
               
-              <!-- Right Panel: Simulated Interactive Manipulation -->
+              <!-- Right Panel: Unified Part-aware Gaussian Field (placeholder) -->
               <div class="column is-6">
-                <div class="workflow-panel">
-                  <div style="position: relative;">
-                    <img src="./gif/1.gif" alt="Simulated Interactive Manipulation" class="workflow-large-image">
-                  </div>
-                  <p class="workflow-label has-text-centered" style="margin-top: 10px;">Simulated Interactive Manipulation</p>
+                <div class="workflow-panel" style="padding-bottom: 5px;">
+                  <img src="./gif/0.gif" alt="Unified Part-aware Gaussian Field" class="workflow-large-image">
                 </div>
               </div>
             </div>
+            <!-- Unified text description spanning both videos -->
+            <p class="workflow-label has-text-centered" style="margin-top: 0;"><strong>Unified Part-aware Gaussian Field</strong></p>
           </div>
         </div>
       </div>
 
       <!-- Connecting Element: Large Arrow Down -->
-      <div class="has-text-centered workflow-arrow">
+      <div class="workflow-arrow workflow-arrow-bottom">
         <i class="fas fa-arrow-down" style="font-size: 3rem; color: #888;"></i>
       </div>
 
       <!-- Bottom Section: Application and Advanced Manipulation -->
-      <div class="workflow-dashed-box workflow-right-container workflow-bottom-box">
-        <div class="columns workflow-bottom-section">
-          <!-- Left Panel: Photorealistic Continuous Rendering -->
-          <div class="column is-6">
-            <div class="workflow-panel">
-              <img src="./gif/2.gif" alt="Photorealistic Continuous Rendering" class="workflow-large-image">
-              <p class="workflow-label has-text-centered" style="margin-top: 10px;">Photorealistic Continuous Rendering for Articulated Objects Manipulation</p>
+      <div class="columns workflow-bottom-section is-vcentered">
+        <!-- Left Panel: Simulated Interactive Manipulation (moved from top row, outside dashed box) -->
+        <div class="column is-3">
+          <div class="workflow-panel">
+            <div style="position: relative;">
+              <img src="./gif/1.gif" alt="Simulated Interactive Manipulation" class="workflow-large-image">
             </div>
+            <p class="workflow-label has-text-centered" style="margin-top: 10px;">Simulated Interactive Manipulation</p>
           </div>
-          
-          <!-- Right Panel: Part-Level Decoupling and Continuous Deformation -->
-          <div class="column is-6">
-            <div class="workflow-panel">
-              <img src="./gif/3.gif" alt="Part-Level Decoupling" class="workflow-large-image">
-              <p class="workflow-label has-text-centered" style="margin-top: 10px;">Articulated Object Manipulation for Reconstructed Assets <br>&nbsp;</p>
+        </div>
+        
+        <!-- Arrow pointing to right (outside dashed box) -->
+        <div class="column is-1" style="display: flex; align-items: center; justify-content: center;">
+          <i class="fas fa-arrow-right" style="font-size: 2.5rem; color: #888;"></i>
+        </div>
+        
+        <!-- Right Panel: Two videos area (inside dashed box) -->
+        <div class="column is-8">
+          <div class="workflow-dashed-box workflow-right-container workflow-bottom-box">
+            <div class="columns">
+              <!-- Left Panel: Photorealistic Continuous Rendering -->
+              <div class="column is-6">
+                <div class="workflow-panel">
+                  <img src="./gif/2.gif" alt="Photorealistic Continuous Rendering" class="workflow-large-image">
+                  <p class="workflow-label has-text-centered" style="margin-top: 10px;"><strong>Photorealistic Continuous <span style="color: red;">Rendering</span> <br> for Articulated Objects Manipulation</strong></p>
+                </div>
+              </div>
+              
+              <!-- Right Panel: Part-Level Decoupling and Continuous Deformation -->
+              <div class="column is-6">
+                <div class="workflow-panel">
+                  <img src="./gif/3.gif" alt="Part-Level Decoupling" class="workflow-large-image">
+                  <p class="workflow-label has-text-centered" style="margin-top: 10px;"><strong>Articulated Object Manipulation <br> for Reconstructed Assets</strong></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

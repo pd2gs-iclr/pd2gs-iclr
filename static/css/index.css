@@ -288,6 +288,17 @@ h4 {
 .workflow-arrow {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  position: relative;
+}
+
+.workflow-arrow-bottom {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: calc((3 + 1) * (100% / 12) + (8 * (100% / 12)) / 2);
+}
+
+.workflow-arrow-bottom i {
+  transform: translateX(-50%);
 }
 
 .workflow-bottom-section {
@@ -296,4 +307,18 @@ h4 {
 
 .workflow-bottom-box {
   margin-top: 0;
+}
+
+/* Reduce container padding to bring content closer to edges */
+.container.is-max-desktop {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .container.is-max-desktop {
+    max-width: 1152px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
