@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>PD²GS</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="https://kit.fontawesome.com/d383128d10.js" crossorigin="anonymous"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">PD\(^{2}\)GS: Part-Level Decoupling and Continuous Deformation of Articulated Objects via Gaussian Splatting</h1>
+        </div>
+      </div>
+      <div class="column has-text-centered">
+        <h2 class="title is-3">Anonymous Authors</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Workflow Process Section -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- Top Section: Data Collection and Initial Processing -->
+      <div class="columns is-vcentered workflow-top-section">
+        <!-- Left Side: Real-World Data Collection Input -->
+        <div class="column is-2">
+          <div class="workflow-input-stack">
+            <div class="workflow-input-image">
+              <img src="./static/images/input_0.png" alt="input_0.png" class="workflow-small-image">
+            </div>
+            <div class="workflow-input-image">
+              <img src="./static/images/input_1.png" alt="input_1.png" class="workflow-small-image">
+            </div>
+            <div class="workflow-input-image">
+              <img src="./static/images/input_2.png" alt="input_2.png" class="workflow-small-image">
+            </div>
+            <div class="workflow-ellipsis">
+              <span style="font-size: 1.5rem; color: #666;">...</span>
+            </div>
+            <div class="workflow-input-image">
+              <img src="./static/images/input_3.png" alt="input_3.png" class="workflow-small-image">
+            </div>
+          </div>
+          <p class="workflow-label has-text-centered" style="margin-top: 10px; font-weight: bold;">Real-World Data Collection</p>
+        </div>
+        
+        <!-- Arrow between left and right -->
+        <div class="column is-1 workflow-arrow-column">
+          <div class="workflow-horizontal-arrow">
+            <i class="fas fa-arrow-right" style="font-size: 2.5rem; color: #888;"></i>
+          </div>
+        </div>
+        
+        <!-- Right Side: Processing and Simulation (within dashed box) -->
+        <div class="column is-9">
+          <div class="workflow-dashed-box workflow-right-container">
+            <div class="columns">
+              <!-- Left Panel: Unified Part-aware Gaussian Field -->
+              <div class="column is-6">
+                <div class="workflow-panel">
+                  <img src="./gif/0.gif" alt="Unified Part-aware Gaussian Field" class="workflow-large-image">
+                  <p class="workflow-label has-text-centered" style="margin-top: 10px;">Unified Part-aware Gaussian Field</p>
+                </div>
+              </div>
+              
+              <!-- Right Panel: Simulated Interactive Manipulation -->
+              <div class="column is-6">
+                <div class="workflow-panel">
+                  <div style="position: relative;">
+                    <img src="./gif/1.gif" alt="Simulated Interactive Manipulation" class="workflow-large-image">
+                  </div>
+                  <p class="workflow-label has-text-centered" style="margin-top: 10px;">Simulated Interactive Manipulation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Connecting Element: Large Arrow Down -->
+      <div class="has-text-centered workflow-arrow">
+        <i class="fas fa-arrow-down" style="font-size: 3rem; color: #888;"></i>
+      </div>
+
+      <!-- Bottom Section: Application and Advanced Manipulation -->
+      <div class="workflow-dashed-box workflow-right-container workflow-bottom-box">
+        <div class="columns workflow-bottom-section">
+          <!-- Left Panel: Photorealistic Continuous Rendering -->
+          <div class="column is-6">
+            <div class="workflow-panel">
+              <img src="./gif/2.gif" alt="Photorealistic Continuous Rendering" class="workflow-large-image">
+              <p class="workflow-label has-text-centered" style="margin-top: 10px;">Photorealistic Continuous Rendering for Articulated Objects Manipulation</p>
+            </div>
+          </div>
+          
+          <!-- Right Panel: Part-Level Decoupling and Continuous Deformation -->
+          <div class="column is-6">
+            <div class="workflow-panel">
+              <img src="./gif/3.gif" alt="Part-Level Decoupling" class="workflow-large-image">
+              <p class="workflow-label has-text-centered" style="margin-top: 10px;">Articulated Object Manipulation for Reconstructed Assets <br>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="has-text-centered">
+        <h2 class="title is-3">Part-Level Decoupling and Continuous Deformation</h2>
+      </div>
+      <br><br>
+      
+      <!-- Two Movables Parts -->
+      <div class="columns is-centered" style="margin-bottom: 3rem;">
+        <div class="column is-4">
+          <figure>
+            <img src="./gif/4.gif" width="100%" style="border: 2px solid #ddd; border-radius: 5px;">
+          </figure>
+        </div>
+        <div class="column is-4">
+          <figure>
+            <img src="./gif/5.gif" width="100%" style="border: 2px solid #ddd; border-radius: 5px;">
+          </figure>
+        </div>
+      </div>
+      <p class="title is-5 has-text-centered" style="margin-bottom: 3rem;">two movables parts</p>
+      
+      
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
